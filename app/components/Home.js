@@ -7,7 +7,6 @@ import LoginForm from "./LoginForm";
 export default function Home({ posterId, adminId }) {
   const [showForm, setShowForm] = useState(true);
   const [homepage, setHomepage] = useState(true);
-  const { adminId, posterId } = params;
 
   function onChange(value) {
     setHomepage(true);
